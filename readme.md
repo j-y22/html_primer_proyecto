@@ -4,18 +4,18 @@
 Esto indica que es una etiqueta, las etiquetas se cierran repitiendolo al final </"algo", pero algunas se autocierran
 Hay etiquetas padres e hijos
 
-### "<!doctype html>"
+### !doctype html
 Esto es para indicar que lo que sigue es un documento html
 
-### "<html> "
+### html
 Aqui va todo el contenido del proyecto
 
 **¿que pasa si pongo algo fuera de esto?**
 
-### "<head>"
+### head
 Aqui va todo lo que le indica al navegador sobre como cargar cosas de nuestra pagina
 
-### "<body>"
+### body
 Aquí va todo el contenido visible de la pagina
 
 
