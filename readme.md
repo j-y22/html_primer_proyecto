@@ -5,7 +5,7 @@ Esto indica que es una etiqueta, las etiquetas se cierran repitiendolo al final 
 Hay etiquetas padres e hijos
 
 ### !doctype html
-Esto es para indicar que lo que sigue es un documento html
+Esto es para indicar que lo que sigue es un documento html, esta etiqueta se autocierra
 
 ### html
 Aqui va todo el contenido del proyecto
@@ -20,6 +20,8 @@ Aquí va todo el contenido visible de la pagina
 
 
 ## Atributos
-Las etiquetas pueden tener atributos
+Las etiquetas pueden tener atributos y que van dentro de ellas 
+> Ejemplo \<html lang="es"\>
 
-### lang="es"
+### lang="idioma"
+Esto es un atributo que generalmente se pone dentro de la
