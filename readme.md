@@ -60,6 +60,15 @@ Atributos:
 Pone descripcion de la imagen pero a diferencia de *alt* lo muestra en el pie de la imagen sin que la imagen este rota
 Se usa dentro de  \<figure\>
 
+### \<form\> \</from\>
+Para contener formularios
+
+### \<label\> \</label\>
+No se, creo que es para ayudar a la identificacion de los elementos de los formularios
+
+### \<style\> \</style\>
+Sirve para poner codigo css pero solo cuando hay poco, cuando hay más mejor ponerlo en un archivo aparte
+
 ## Atributos
 Las etiquetas pueden tener atributos y que van dentro de ellas 
 > Ejemplo \<html lang="es"\> \</html\>

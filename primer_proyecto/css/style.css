@@ -1,0 +1,31 @@
+.barra-nav{
+    background-color:rgb(153, 166, 179);
+    padding: 7px;
+    list-style: none;
+}
+
+.barra-nav-li{
+    display: inline-block;
+    color: black;
+    border: 1px solid;
+    border-color: rgb(5, 40, 73);
+    background-color:rgb(7, 60, 109) ;
+    padding: 3px;
+}
+
+.barra-nav-li a{
+    color:whitesmoke;
+    text-decoration: none;
+    
+}
+
+nav {
+    background-color: brown;
+}
+
+a {
+    color: aqua;
+}
+
+
+

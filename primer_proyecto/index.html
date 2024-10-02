@@ -10,7 +10,14 @@
     </head>
     <body>
         <header> <!--esto es una etiqueta contenedora sitve para el header-->
-            <nav></nav> <!--esto es por si hay una barra de navegacion-->
+            <nav>
+                <ul class="barra-nav">
+                    <li class="barra-nav-li"><a href="">Home</a></li>
+                    <li class="barra-nav-li"><a href="">tareas</a></li>
+                    <li class="barra-nav-li"><a href="">Compra</a></li>
+                    <li class="barra-nav-li"><a href="">Almacen</a></li>
+                </ul>
+            </nav> <!--esto es por si hay una barra de navegacion-->
         </header>
         <main> <!--esto es para la parte principal-->
             <section>
@@ -22,15 +29,29 @@
                 <li>
                     Frutas
                     <ol>
-                        <li>Manzana</li>
+                        <li>Manzana 🍎
+                            <figure>
+                                <img src="../fotos/manzana.jpg" alt="foto manzana roja">
+                                <figcaption>Manzana roja</figcaption>
+                            </figure>
+                        </li>
                         <li>Platano</li>
                     </ol>
                 </li>
                 <li>
-                    Carnes <ol><li>Pollo</li><li>Carne molida</li></ol>
+                    Carnes <ol>
+                        <li>Pollo
+                            <section>
+                                <video controls>
+                                    <source src="../videos/Como Domesticar Pollos En Minecraft.mp4#t=72">
+                                    <source src="../videos/Como-Domesticar-Pollos-En-Minecraft.m4v">
+                                </video>
+                        </section>
+                        </li>
+                        <li>Carne molida</li></ol>
                 </li>
-                <li>Verduras 
-                    s <!--esto no hace que en la pagina aparezca un salto de linea-->
+                <li>Verduras
+                    : <!--esto no hace que en la pagina aparezca un salto de linea-->
                     <ol>
                         <li>Limon</li>
                         <li><a target="_blank" href="https://www.google.com/search?q=zanahoria&rlz=1C1GCEU_caES1127ES1127&oq=&gs_lcrp=EgZjaHJvbWUqCQgAEEUYOxjCAzIJCAAQRRg7GMIDMgkIARBFGDsYwgMyCQgCEEUYOxjCAzIJCAMQRRg7GMIDMgkIBBBFGDsYwgMyCQgFEEUYOxjCAzIJCAYQRRg7GMIDMgkIBxBFGDsYwgPSAQk5NzE0MWowajeoAgiwAgE&sourceid=chrome&ie=UTF-8">
@@ -39,6 +60,13 @@
                 </li>
             </ul> <!--lista desordenada-->
             <ol></ol> <!--lista ordenada-->
+            <form action="">
+                <label for="nombre">
+                    <span>Producto:</span>
+                    <input type="text" id="producto" placeholder="manzana">
+                </label>
+                <input type="submit">
+            </form>
         </main>
         <footer> <!--esto es para el pie de pagina-->
 
